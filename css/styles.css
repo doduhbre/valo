@@ -1,0 +1,417 @@
+@import url(//db.onlinewebfonts.com/c/5fc6f4fd75e944a52a342ab2c7f100f1?family=Montserrat);
+@import url(//db.onlinewebfonts.com/c/d3085f686df272f9e1a267cc69b2d24f?family=Montserrat);
+@import url(//db.onlinewebfonts.com/c/7e389c5e310dc537b083e0e25ea6eab5?family=Druk+Wide+Medium);
+@import url(//db.onlinewebfonts.com/c/a86f94a776190a79c038dad18ec39950?family=Druk+Web+Bold);
+
+
+@font-face {
+    font-family: "Druk Wide Medium"; 
+    src: url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.eot"); 
+    src: url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.eot?#iefix") 
+    format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.woff2") 
+    format("woff2"), url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/7e389c5e310dc537b083e0e25ea6eab5.svg#Druk Wide Medium") format("svg"); 
+}
+@font-face {
+    font-family: "Montserrat"; 
+    src: url("//db.onlinewebfonts.com/t/5fc6f4fd75e944a52a342ab2c7f100f1.eot"); 
+    src: url("//db.onlinewebfonts.com/t/5fc6f4fd75e944a52a342ab2c7f100f1.eot?#iefix") 
+    format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5fc6f4fd75e944a52a342ab2c7f100f1.woff2") 
+    format("woff2"), url("//db.onlinewebfonts.com/t/5fc6f4fd75e944a52a342ab2c7f100f1.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/5fc6f4fd75e944a52a342ab2c7f100f1.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/5fc6f4fd75e944a52a342ab2c7f100f1.svg#Montserrat") format("svg"); 
+    font-style: normal;
+    font-weight: normal;
+} 
+    @font-face {
+        font-family: "Montserrat"; 
+        src: url("//db.onlinewebfonts.com/t/d3085f686df272f9e1a267cc69b2d24f.eot"); 
+        src: url("//db.onlinewebfonts.com/t/d3085f686df272f9e1a267cc69b2d24f.eot?#iefix") 
+        format("embedded-opentype"), url("//db.onlinewebfonts.com/t/d3085f686df272f9e1a267cc69b2d24f.woff2") 
+        format("woff2"), url("//db.onlinewebfonts.com/t/d3085f686df272f9e1a267cc69b2d24f.woff") format("woff"), 
+        url("//db.onlinewebfonts.com/t/d3085f686df272f9e1a267cc69b2d24f.ttf") format("truetype"), 
+        url("//db.onlinewebfonts.com/t/d3085f686df272f9e1a267cc69b2d24f.svg#Montserrat") format("svg"); 
+        font-style:normal;
+        font-weight: bold;
+    } 
+    @font-face {
+        font-family: "Montserrat"; 
+        src: url("//db.onlinewebfonts.com/t/029177df870cce2b384f0610a6e1f82a.eot"); 
+        src: url("//db.onlinewebfonts.com/t/029177df870cce2b384f0610a6e1f82a.eot?#iefix") 
+        format("embedded-opentype"), 
+        url("//db.onlinewebfonts.com/t/029177df870cce2b384f0610a6e1f82a.woff2") 
+        format("woff2"), url("//db.onlinewebfonts.com/t/029177df870cce2b384f0610a6e1f82a.woff") 
+        format("woff"), url("//db.onlinewebfonts.com/t/029177df870cce2b384f0610a6e1f82a.ttf") 
+        format("truetype"), 
+        url("//db.onlinewebfonts.com/t/029177df870cce2b384f0610a6e1f82a.svg#Montserrat Light") 
+        format("svg"); 
+        font-style:normal;
+        font-weight: 200;
+    } 
+body {
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-style: normal;
+	/*font-size: 18px;*/
+    height: 100%;
+    width:100%;
+}
+
+main{
+    background: url(/img/background.png);
+    background-size: cover;
+    background-color: #0f1923;
+    width:100%;
+    height:100vh;
+    font-family: 'Druk Wide Medium';
+}
+.wrapper {
+    background:url(/img/elements.png);
+    background-size: 1730px 750px;
+    background-repeat: no-repeat;
+    background-position-x: 70px;
+    background-position-y: 60px;
+}
+
+header{
+    background-color: #1F2326;
+    font-weight:bold;
+    width:100%;
+    display:flex;
+}
+
+nav {
+    text-transform: uppercase;
+    padding-bottom:20px;
+    padding-top:20px;
+    display: flex;
+    align-items: center;
+}
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size:12px;
+    width:70PX;
+    padding-right: 50PX;
+    text-align: center;
+}
+
+#longa {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size:12px;
+    width:110PX;
+    padding-right: 50PX;
+    text-align: center;
+}
+
+header .logo {
+    padding-bottom:20px;
+    padding-top:20px;
+    display: flex;
+    align-items: center;
+    padding-right:45px;
+}
+
+.mainlogo {
+    height:30px;
+}
+
+.logoseparate {
+    border-left: #FFFFFF 2px solid;
+    margin-left:20px;
+    margin-right:20px;
+    height:42px;
+    display: inline-block;
+}
+
+.riotlogo {
+    padding-left: 30px;
+}
+
+.usericon {
+    width:30px;
+    height:30px;
+    border-radius: 40px;
+    margin-right:10px;
+}
+
+.topmenu{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    margin-right:50px;
+    align-items: center;
+}
+
+.login{
+    display:flex;
+    align-items: center;
+}
+
+.login a {
+    text-decoration: none;
+    color:#fff;
+
+}
+
+footer{
+    height:150px;
+}
+
+.agents{
+    padding-top:90px;
+    position: relative;
+    display:flex;
+    justify-content: space-around;
+    margin-bottom:50px;
+}
+
+main .title {
+    position: relative;;
+    width:20%;
+    font-size:115px;
+    color: #ff4655;
+    font-weight: 500;
+    transform: rotate(90deg);
+}
+
+main .title span {
+    position: absolute;
+    top:-90px;
+    left:280px;
+}
+
+.agent-art {
+    background-color: #1F2326;
+    width:inherit;
+    background: linear-gradient(135deg, transparent 4.5px,#1F2326 0);
+}
+
+#active-agent .agent-art {
+    background-color: #fff;
+    background: linear-gradient(135deg, transparent 4.5px, #fff 0);
+}
+
+.agent-art img {
+    width:inherit;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.agent {
+    position:relative;
+    width:300px;
+    display:flex;
+    justify-content:right;
+    
+    border: 2px solid transparent;
+    border-image: linear-gradient(135deg, transparent 6px,#1F2326 0);
+    border-image-slice: 1; 
+    justify-self: center;
+    height:682.2px;
+    margin-bottom:25px;
+    margin-left:20px;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    /*border-top-left-radius: 16px;*/
+}
+
+.agent::before {
+    content: '';
+    position:absolute;
+    border: 1px solid #1F2326;
+    top:-3.5px;
+    left:2.5px;
+    height:11.5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+
+.agent:hover {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.agent:hover img {
+    filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+
+.owl-carousel{
+    z-index: 10;
+}
+
+.agent .info {
+    position: absolute;
+    width:150px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    top:60px;
+    left:-65px;
+    z-index: 1;
+}
+
+.agent .info .name {
+    text-transform: uppercase;
+    color:transparent;
+    -webkit-text-stroke: 1px #fff;
+    color: #0f1923;
+    font-size:50px;
+    line-height: 50px;
+    font-stretch: wider;
+}
+
+.icon .skill-svg{
+    background-color: #0f1923 ;
+}
+
+.agent .info .country {
+    color:#FF4655;
+    font-size: 12px;
+    width:200px;
+    letter-spacing: 0.1em;
+}
+
+#active-agent .info .name {
+    -webkit-text-stroke: 1.5px #fff;
+}
+
+#active-agent img {
+    filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+}
+
+.agent .skills-preview {
+    position: absolute;
+    background-color: #1F2326;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:300px;
+    bottom:0px;
+}
+
+.agent .skills-preview .skill-icon svg {
+    width:40px;
+    height:40px;
+    color:#1F2326;
+}
+
+.agent .skills-preview .skill-icon svg path {
+    fill:#fff;
+}
+
+
+.agent .skills-preview .skill-icon {
+    padding-top:20px;
+    padding-bottom:20px;
+    
+}
+
+#active-agent .skills-preview {
+    border-color: #1F2326;
+    background-color: #fff;
+}
+
+#active-agent .skills-preview .skill-icon svg path {
+    fill:#1F2326;
+}
+
+.skills {
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.skill-item {    
+    background: linear-gradient(135deg, transparent 4.5px, #f8f8f8 0);
+    border: 2px solid transparent;
+    border-image: linear-gradient(135deg, transparent 6.5px,#1F2326 0);
+    border-image-slice: 1;
+    border-top-left-radius: 20px;
+    margin-left:15px;
+    margin-right: 15px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-right:160px;
+    position: relative;
+}
+
+.skill-item::before {
+    content: '';
+    position:absolute;
+    border: 1px solid #1F2326;
+    top:-3px;
+    left:3px;
+    height:11.5px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+
+.skill-item .relevance {
+    color:#c4c4c4;
+    font-size:24px;
+    text-transform: uppercase;
+}
+
+.skill-item .name{
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: 500;
+    font-size:25px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.skill-item .description {
+    font-family: 'Montserrat';
+    padding-top: 10px;
+    font-size:18px;
+    width:270px;
+    margin-bottom:15px;
+    font-weight:200;
+}
+
+.skill-item .icon {
+    position: absolute;
+    padding-top: 30px;
+    top:10px;
+    right:26px;
+    z-index: 1;
+}
+
+.skill-item .icon svg {
+    width:110px;
+    height:110px;
+}
+
+.carousel-wrapper {
+    width:80%;
+}
+
+.dropimg{
+    margin-left:5px;
+    padding-bottom:1px;
+}
